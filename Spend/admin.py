@@ -1,3 +1,4 @@
 from django.contrib import admin
+from Spend.models import SpendStatistic
 
-# Register your models here.
+admin.site.register(SpendStatistic)
